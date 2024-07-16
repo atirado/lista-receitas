@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Recipe List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação web de lista de receitas culinárias desenvolvida em React.
 
-## Available Scripts
+## Tema Recebido
 
-In the project directory, you can run:
+Desenvolver uma aplicação web individual utilizando a biblioteca do React, abordando conceitos de componentes, props e hooks.
 
-### `npm start`
+## Estrutura do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Componente Principal (App): Gerencia o estado principal da aplicação e contém os componentes filhos.
+- Componentes Filhos:
+  - RecipeList: Exibe a lista de receitas.
+  - RecipeForm: Formulário para adicionar novas receitas.
+  - RecipeItem: Exibe uma receita individual com opções para editar e remover.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requisitos Técnicos
 
-### `npm test`
+- Utilização do framework React.
+- Criação de componentes funcionais.
+- Passagem de dados entre componentes utilizando props.
+- Utilização de hooks para gerenciar estado e efeitos colaterais.
+- Organização da estrutura do projeto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Componentes Mínimos
 
-### `npm run build`
+- Um componente principal que gerencia a aplicação.
+- Pelo menos dois componentes filhos que recebam dados do componente principal.
+- Exibição dinâmica de dados utilizando o estado.
+- Utilização de hooks para gerenciamento dos componentes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Adicionar novos itens ou dados através do formulário, utilizando arrays ou objetos.
+- Exibir a lista de itens/dados adicionados.
+- Permitir a edição e remoção de itens/dados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estilo e Layout
 
-### `npm run eject`
+- Utilizar CSS para estilização básica da aplicação.
+- A aplicação deve ser responsiva, adaptando-se bem a diferentes tamanhos de tela.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instruções de Instalação e Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/SEU_USUARIO/recipe-list.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd recipe-list
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Inicie a aplicação:
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Publicação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A aplicação está publicada no Surge. [Link para a aplicação](http://seu-endereco.surge.sh)
 
-## Learn More
+## Descrição dos Componentes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### App
+Componente principal que gerencia o estado principal da aplicação.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### RecipeList
+Componente que exibe a lista de receitas.
 
-### Code Splitting
+### RecipeForm
+Formulário para adicionar novas receitas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### RecipeItem
+Componente que exibe uma receita individual com opções para editar e remover.
